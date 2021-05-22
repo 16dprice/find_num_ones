@@ -1,6 +1,13 @@
 #include <iostream>
+#include <math.h>
+#include "OneCounter.h"
+
+using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    OneCounter counter;
+
+    cout << counter.count(35199981) << endl;
+
     return 0;
 }

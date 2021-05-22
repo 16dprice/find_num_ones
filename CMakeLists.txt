@@ -3,4 +3,4 @@ project(challenge_390)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(challenge_390 main.cpp)
+add_executable(challenge_390 OneCounter.cpp main.cpp)
